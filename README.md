@@ -1,5 +1,7 @@
 # BargainingBotDatabasePubSub
-Cloud Function triggered on a pub/sub topic to add orders to firestore database
+
+A Cloud Function triggered on a pub/sub topic to add orders to firestore database.
+This repo is part of the [Bargaining Bot](https://github.com/shounakmulay/BargainingBot) project.
 
 The Dialogflow NLP platform has a limit of **5 sec** to recieve a response form the webhook. Providing a response and updating the database was taking more than 5 sec in the [Dialogflow Webhook](https://github.com/shounakmulay/BargainingBotDialogflowWebhook).
 
